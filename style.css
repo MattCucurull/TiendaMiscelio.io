@@ -1,0 +1,292 @@
+body {
+  background-color: #000000;
+}
+
+#imagen-hongo {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 0;
+}
+
+#shadow {
+  width: 2000px;
+  height: 900px;
+  position: absolute;
+  z-index: 1;
+  right: 0px;
+  top: 0px;
+}
+
+#logo-miscelio {
+  left: 95px;
+  top: 100px;
+  position: absolute;
+  width: 450px;
+  z-index: 2;
+}
+
+p {
+  color: #ffffff;
+  font-family: arial;
+  font-size: 20px;
+  flex-grow: 1;
+}
+
+#pages-box {
+  position: absolute;
+  left: 95px;
+  display: flex;
+  width: 560px;
+  height: 40px;
+  z-index: 3;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#lines-box {
+  position: absolute;
+  left: 60px;
+  width: 520px;
+  justify-content: space-between;
+  height: 75px;
+  display: flex;
+  z-index: 4;
+  align-items: center;
+}
+
+.line {
+  position: absolute;
+  background-color: white;
+  height: 2px;
+  width: 550px;
+}
+
+#line2 {
+  width: 510px;
+  position: absolute;
+  left: 60px;
+  top: 600px;
+  z-index: 4;
+}
+
+#siguiente-button {
+  z-index: 5;
+  position: absolute;
+  bottom: 100px;
+  right: 100px;
+  background-color: white;
+  width: 200px;
+  height: 80px;
+  border-radius: 40px;
+  font-size: 18px;
+}
+#siguiente-button:hover {
+  background-color: orange;
+}
+
+#text-box {
+  font-family: arial;
+  font-size: 18px;
+  z-index: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 60px;
+  bottom: 250px;
+  color: white;
+  width: 510px;
+  height: 100px;
+}
+
+h4 {
+  margin: 3px;
+}
+
+@media only screen and (max-width: 320px) {
+  #imagen-hongo {
+    display: none;
+  }
+
+  #shadow {
+    display: none;
+  }
+
+  #logo-miscelio {
+    border: 2px solid white;
+    left: 58px;
+    width: 200px;
+    height: 200px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  #pages-box {
+    display: none;
+  }
+
+  #lines-box {
+    display: none;
+  }
+
+  .line {
+    display: none;
+  }
+
+  #siguiente-button {
+    display: none;
+  }
+
+  #text-box {
+    bottom: 40px;
+    left: -95px;
+  }
+}
+
+@media only screen and (max-width: 360px) and (min-width: 321px) {
+  #imagen-hongo {
+    display: none;
+  }
+
+  #everythings-box {
+    display: flex;
+    flex-wrap: wrap;
+    position: static;
+    width: 100%;
+    height: 640px;
+    justify-content: center;
+    align-content: space-between;
+  }
+
+  #imagen-hongo {
+    display: none;
+  }
+
+  #shadow {
+    display: none;
+  }
+
+  #logo-miscelio {
+    margin: 120px;
+    position: static;
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  #pages-box {
+    margin-bottom: -40px;
+    position: static;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 55px;
+  }
+
+  #lines-box {
+    position: static;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-bottom: -400px;
+  }
+  
+  #line1{
+    margin-left: -4px;
+    width: 100%;
+    display: flex;
+  }
+  
+  #line2{
+    display: none;
+  }
+
+  #siguiente-button {
+    display: none;
+  }
+
+  #text-box {
+    margin-bottom: 150px;
+    position: static;
+  }
+}
+
+@media only screen and (min-width: 361px) and (max-width: 375px) {
+  #imagen-hongo {
+    display: none;
+  }
+
+  #everythings-box {
+    display: flex;
+    flex-wrap: wrap;
+    position: static;
+    width: 100%;
+    height: 640px;
+    justify-content: center;
+    align-content: space-between;
+  }
+
+  #imagen-hongo {
+    display: none;
+  }
+
+  #shadow {
+    display: none;
+  }
+
+  #logo-miscelio {
+    margin: 120px;
+    position: static;
+    border: 2px solid white;
+    width: 200px;
+    height: 200px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  #pages-box {
+    margin-bottom: -40px;
+    position: static;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: 55px;
+  }
+
+  #lines-box {
+    position: static;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-bottom: -400px;
+  }
+  
+  #line1{
+    margin-left: -4px;
+    width: 100%;
+    display: flex;
+  }
+  
+  #line2{
+    display: none;
+  }
+
+  #siguiente-button {
+    display: none;
+  }
+
+  #text-box {
+    margin-bottom: 150px;
+    position: static;
+  }
+}
